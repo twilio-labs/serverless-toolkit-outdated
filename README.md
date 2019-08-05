@@ -17,6 +17,8 @@ Everything in this toolkit is released under [Twilio Labs](https://www.twilio.co
 
 The project is broken down into a variety of repositories. If you just want to [file an issue](https://github.com/twilio-labs/serverless-toolkit/issues) feel free to file it under this project if you don't know where it belongs. For pull requests, please check out the right project and check out their respective contributing guides.
 
+To understand more about the structure and the design of the Toolkit check out the [design documentation](DESIGN.md).
+
 - [`twilio-run`](https://github.com/twilio-labs/twilio-run) - The underlying CLI tool
 - [`plugin-serverless`](https://github.com/twilio-labs/plugin-serverless) - Exposes the `twilio-run` CLI into the [Twilio CLI](https://www.twilio.com/docs/twilio-cli)
 - [`create-twilio-function`](https://github.com/twilio-labs/create-twilio-function) - Handles templating and bootstraping of new projects and Functions
