@@ -10,7 +10,7 @@ consideration.
   - [2. Designed for Twilio Functions development first](#2-designed-for-twilio-functions-development-first)
   - [3. From Node.js Developers for Node.js Developers](#3-from-nodejs-developers-for-nodejs-developers)
   - [4. The Toolkit should work standalone](#4-the-toolkit-should-work-standalone)
-  - [5. Inferring over configuration](#5-inferring-over-configuration)
+  - [5. Convention over configuration](#5-convention-over-configuration)
   - [6. Convenience over scriptability](#6-convenience-over-scriptability)
 
 ## 1. Modularity
@@ -25,11 +25,11 @@ Right now the project breaks down into the following modules:
 | Project                                    | Content                                                                                                                                                                                                                       |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`twilio-run`]                             | Core CLI logic of the Serverless Toolkit                                                                                                                                                                                      |
-| [`create-twilio-function`]                 | CLI logic for creating a new project. This can be called with `npm init twilio-function` and therefor should stay separate                                                                                                    |
+| [`create-twilio-function`]                 | CLI logic for creating a new project. This can be called with `npm init twilio-function` and therefore should stay separate                                                                                                   |
 | [`@twilio-labs/plugin-serverless`]         | A thin wrapper exposing the commands of [`twilio-run`] and [`create-twilio-function`] to the [Twilio CLI]                                                                                                                     |
 | [`@twilio-labs/serverless-api`]            | The core logic that interacts with the REST API. This should not include any CLI-related code. It should instead expose [EventEmitter](https://nodejs.org/api/events.html) or [Streams](https://nodejs.org/api/streams.html). |
 | [`function-templates`]                     | The repository hosting all Twilio Function templates exposed by the CLI toolings                                                                                                                                              |
-| [`@twilio-labs/serverless-twilio-runtime`] | Twilio Runtime integration for the Serverless Framework                                                                                                                                                                       |
+| [`@twilio-labs/serverless-twilio-runtime`] | Twilio Runtime integration for the [Serverless Framework](https://serverless.com/)                                                                                                                                            |
 | [`@twilio-labs/serverless-runtime-types`]  | TypeScript definitions for the Twilio Runtime environment                                                                                                                                                                     |
 
 ## 2. Designed for Twilio Functions development first
@@ -70,7 +70,7 @@ using:
 npm install --save-dev twilio-run
 ```
 
-## 5. Inferring over configuration
+## 5. Convention over configuration
 
 Whenever we can avoid the developers having to learn and create configuration, we should.
 
