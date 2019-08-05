@@ -5,6 +5,14 @@ different purposes. In order to guide contributors for any contributions to the
 Serverless Toolkit, we wrote a set of guidelines that should be taken into
 consideration.
 
+- [Design of the Serverless Toolkit](#design-of-the-serverless-toolkit)
+  - [1. Modularity](#1-modularity)
+  - [2. Designed for Twilio Functions development first](#2-designed-for-twilio-functions-development-first)
+  - [3. From Node.js Developers for Node.js Developers](#3-from-nodejs-developers-for-nodejs-developers)
+  - [4. The Toolkit should work standalone](#4-the-toolkit-should-work-standalone)
+  - [5. Inferring over configuration](#5-inferring-over-configuration)
+  - [6. Convenience over scriptability](#6-convenience-over-scriptability)
+
 ## 1. Modularity
 
 While all modules together form the Serverless Toolkit, we offer with the
