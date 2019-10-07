@@ -28,7 +28,7 @@ To understand more about the structure and the design of the Toolkit check out t
 
 ## License
 
-MIT
+MIT License
 
 ## Disclaimer
 
