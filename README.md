@@ -26,10 +26,10 @@ To understand more about the structure and the design of the Toolkit check out t
 - [`serverless-api`](https://github.com/twilio-labs/serverless-api) - The module used to interact with the actual [Serverless API](https://github.com/twilio-labs/serverless-api)
 - [`function-templates`](https://github.com/twilio-labs/function-templates) - The templates used by the toolkit to create new Functions
 
-## License
-
-MIT
-
 ## Disclaimer
 
 Unofficial logo. Not a Twilio logo.
+
+## License
+
+MIT
