@@ -26,7 +26,7 @@ To understand more about the structure and the design of the Toolkit check out t
 - [`serverless-api`](https://github.com/twilio-labs/serverless-api) - The module used to interact with the actual [Serverless API](https://github.com/twilio-labs/serverless-api)
 - [`function-templates`](https://github.com/twilio-labs/function-templates) - The templates used by the toolkit to create new Functions
 
-## License
+## License [![GitHub license](https://img.shields.io/github/license/twilio-labs/serverless-toolkit)](https://github.com/twilio-labs/serverless-toolkit/blob/master/LICENSE)
 
 MIT
 
